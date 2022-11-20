@@ -11,6 +11,17 @@ int main()
 	result = a + b;
 	printf("%d + %d = %d\n", a, b, result);
 
+	scanf("%d", &a);
+	scanf("%d", &b);
+
+	result = a / b;
+
+	printf("%d / %d = %d\n", a, b, result);
+
+
+
+
+
 	return 0;
 
 
